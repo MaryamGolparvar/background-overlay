@@ -1,0 +1,24 @@
+/* How to Add a CSS Gradient Overlay to a Background Image */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to left, #667eeacd 0%, #764ba2cb 100%), url(./images/live-music-lovers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+h1{
+font-size: 4rem;
+font-weight: bold;
+color: rgb(255, 255, 255);
+}
